@@ -93,5 +93,5 @@ public class JaskaranActivity extends AppCompatActivity {
         AlertDialog alert = builder.create();
         alert.show();
 
-    }
+    } 
 }
