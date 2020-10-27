@@ -16,7 +16,7 @@ import android.view.MenuItem;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import android.os.Bundle;
-
+ 
 public class JaskaranActivity extends AppCompatActivity {
 
     @Override
