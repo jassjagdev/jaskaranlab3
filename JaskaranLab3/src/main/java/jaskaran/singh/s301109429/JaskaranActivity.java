@@ -31,7 +31,7 @@ public class JaskaranActivity extends AppCompatActivity {
                 new JaskaranFragment()).commit();
     }
 
-    @Override
+    @Override 
     public void onBackPressed() {
         //super.onBackPressed();
         backPressed(getResources().getString(R.string.sure));
