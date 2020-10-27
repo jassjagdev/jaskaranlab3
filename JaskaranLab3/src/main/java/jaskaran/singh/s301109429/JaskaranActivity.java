@@ -57,7 +57,7 @@ public class JaskaranActivity extends AppCompatActivity {
                             selectedFragment = new S301109429Fragment();
                             break;
                     }
-
+ 
                     getSupportFragmentManager().beginTransaction().replace(R.id.jaskaranFragment,
                             selectedFragment).commit();
                     return true;
