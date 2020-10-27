@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="myImage">164dp</dimen>
+    <dimen name="mySpin">132dp</dimen>
+    <dimen name="myCanvasHeight">184dp</dimen>
+    <dimen name="myButton">72dp</dimen>
+</resources>

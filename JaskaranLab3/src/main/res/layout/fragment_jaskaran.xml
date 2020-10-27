@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cyan"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:fontFamily="cursive"
+            android:text="@string/fname"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:text="@string/sId"
+            android:textAppearance="@android:style/TextAppearance.Small" />
+
+        <ImageView
+            android:layout_width="@dimen/myImage"
+            android:layout_height="@dimen/myImage"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/frag_1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lineThickness"
+                    android:textAppearance="@android:style/TextAppearance.Small" />
+
+                <Spinner
+                    android:id="@+id/jaskaranLineSpinner"
+                    android:layout_width="@dimen/mySpin"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/lineColor"
+                    android:textAppearance="@android:style/TextAppearance.Small" />
+
+                <Spinner
+                    android:id="@+id/jaskaranColorSpin"
+                    android:layout_width="@dimen/mySpin"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/draw"
+                    android:textAppearance="@android:style/TextAppearance.Small" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/jaskaranBtnUp"
+                        android:layout_width="@dimen/myButton"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/up" />
+
+                    <Button
+                        android:id="@+id/jaskaranBtnLeft"
+                        android:layout_width="@dimen/myButton"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/left" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/jaskaranBtnDown"
+                        android:layout_width="@dimen/myButton"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/down" />
+
+                    <Button
+                        android:id="@+id/jaskaranBtnRight"
+                        android:layout_width="@dimen/myButton"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="@string/right" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/jaskaranCanvas"
+                    android:layout_width="@dimen/myImage"
+                    android:layout_height="@dimen/myCanvasHeight"
+                    android:background="@android:color/holo_purple" />
+
+                <Button
+                    android:id="@+id/jaskaranBtnClear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="@string/clear" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/x"
+                        android:textAppearance="@android:style/TextAppearance.Small" />
+
+                    <TextView
+                        android:id="@+id/jaskaranX"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginRight="8dp"
+                        android:text="@android:string/ok"
+                        android:textAppearance="@android:style/TextAppearance.Small" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/y"
+                        android:textAppearance="@android:style/TextAppearance.Small" />
+
+                    <TextView
+                        android:id="@+id/jaskaranY"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@android:string/ok"
+                        android:textAppearance="@android:style/TextAppearance.Small" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

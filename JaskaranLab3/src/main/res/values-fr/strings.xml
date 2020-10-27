@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!-- Jaskaran Singh 301109429 Sec. 002 -->
+
+<resources>
+    <string name="app_name">JaskaranLab3</string>
+    <string name="draw">Dessin</string>
+    <string name="anim">Animation d\'image</string>
+    <string name="rotate">Rotation d\'image</string>
+    <string name="fname">Jaskaran</string>
+    <string name="lname">Singh</string>
+    <string name="sId">301109429</string>
+    <string name="up">Vers le haut</string>
+    <string name="down">Vers le bas</string>
+    <string name="left">La gauche</string>
+    <string name="right">Droit</string>
+    <string name="clear">Claire</string>
+    <string name="lineThickness">Sélectionnez l\'épaisseur</string>
+    <string name="lineColor">Sélectionnez la couleur</string>
+    <string name="start">Début</string>
+    <string name="stop">Arrêtez</string>
+    <string name="img1">Première image de fragment</string>
+    <string name="img2">Image de deuxième fragment</string>
+    <string name="img3">Image du troisième fragment</string>
+    <string name="x">X:</string>
+    <string name="y">"Y: "</string>
+    <string name="close">proche</string>
+    <string name="sure">Êtes-vous sûr?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="permission">Vérifier les autorisations</string>
+    <string name="moon">Image de la lune</string>
+    <string name="earth">Image de la terre</string>
+    <string name="permissionAlready">Autorisations déjà accordées.</string>
+    <string name="selectSpeed">Sélectionnez la vitesse</string>
+    <string name="speed1">1</string>
+    <string name="speed2">2</string>
+    <string name="speed3">3</string>
+    <string name="speed4">4</string>
+    <string name="animMsg">Veuillez sélectionner la valeur de vitesse appropriée</string>
+</resources>
